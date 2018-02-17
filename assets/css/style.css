@@ -1,0 +1,173 @@
+
+head{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+body{
+font-family: 'Arial', Helvetica, 'Helvetica Neue' 'sans-serif';
+line-height: 1.5;
+padding: 0;
+background-color: lightgrey;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    background-color: #4aaaa5;
+    color: #ffffff;   
+    display: inline; 
+}
+
+h1{
+    color: #4aaaa5;
+    font-weight: bold !important;
+    padding-left: 10px;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+    overflow: hidden;
+}
+
+aside#main-body{
+    background-color: #ffffff;
+    width: 650px;
+    float: left;
+    padding-left: 110px;
+    
+}
+
+aside#main-body2{
+    background-color: #ffffff;
+    width: 600px;
+    float: left;
+    padding-left: 110px;
+    
+}
+
+aside#top-sidebar{
+    background-color: #ffffff;
+    width: 270px;
+    float: right;
+    padding-right: 150px;
+}
+
+header{
+    background: #ffffff;
+    border-color: #cccccc;
+    border-top: #dddddd 3px solid;
+    border-bottom: #dddddd 3px solid;
+}
+
+#navigation{
+    background-color: #ffffff;
+    color: #777777;
+    display: inline;
+}
+
+#navigation a {
+    color:#777777;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#navigation li{
+    display: inline;
+    padding: 20px 0px 0px 0px;
+}
+
+header #myname{
+    float:left;
+    padding: 20px 20px 0px 20px;
+}
+
+header #myname h2{
+    margin-top: 10px;
+}
+
+header nav{
+    float: right;
+    margin-top:10px;
+}
+
+
+#myname{
+background-color: #4aaaa5;
+text-decoration-color: #cccccc;
+height:70px;
+font-family: sans-serif;
+font-weight: 200;
+padding-top: 10;
+}
+
+nav ul{
+display: inline;
+text-align: right;
+}
+
+nav{
+    padding: 20px 0px 0px 0px;
+}
+
+
+/*Body*/
+.topcontent{
+    text-align: left;
+}
+
+#mypic{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#github img{
+    width: 70px;
+}
+#linked-in img{
+    width: 70px;
+}
+
+#stack-overflow img{
+    width: 70px;
+}
+
+#connect{
+  
+    vertical-align: middle;
+}
+
+p{
+    padding: 10px 10px 10px 10px;
+    color: #777777;
+    font-family: sans-serif;
+}
+
+footer{
+    background-color: #dddddd;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    color: #777777;
+    clear: both;
+}
+
+textarea {    
+height:200px;
+width:500px;
+resize:none;    
+}
+
+.button_1{
+    padding-top: 10px;
+    clear: both;
+    background-color: #4aaaa5;
+    color: #dddddd;
+    font-size: 20px;
+}
+
+/*In progress; I am still working on the code to complete the assignment*/
