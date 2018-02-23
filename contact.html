@@ -1,74 +1,76 @@
 <!DOCTYPE html>
+<html lang="en"></html>
+
 <head>
-<html lang="en">
-    <title>Catherine's Portfolio</title>
-    <meta charset ="utf-8"/>
-    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
-    <meta name ="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset ="utf-8"/>
+  <title>About Me</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
   </head>
+
+  
   <body>
 
-    <header>
+    <header id ="mainheader">
       <div class="container">
-        <div id="myname">
-          <h2>Catherine Muthoni</h2>
-        </div>       
-        <div id = "navigation">
+        <a href="index.html" id="logo">Catherine Muthoni</a>
         <nav>
-            <ul>      
-              <li><a href="index.html">About  |</a></li>
-              <li><a href="portfolio.html">Portfolio  |</a></li>
-              <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+      </nav>
       </div>
-      </div>
-   
-</header>
+      </header>
+          
+        <div id="main-container" class="container">
+          <section class="main-section">
+              <h1>Contact</h1> 
 
-<section>
-<aside id="main-body2"> 
-    <h1>Contact</h1>
-    <h4>Name</h4>
-    <input type="text" placeholder="Please enter your name"/>
+              <contact id="contact-form">
+                <ul>
+                  <li>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name"
+                    placeholder="Jane Doe"
+                    required="required">
+                  </li>
 
-    <h4>Email</h4>
-    <input type="email" placeholder="Please enter your email"/>
+                  <li>
+                      <label for="name">Email</label>
+                      <input type="text" name="email" id="name"
+                      placeholder="example@yahoo.com"
+                      required="required">
+                    </li>
 
-    <h4>Message</h4>
-    <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-    
-    <div>
-            <button class = "button_1" type="submit">Submit</button>
-    </div>
-    
-  
-</aside> 
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5"
+                        required="required"></textarea>
+                      </li>
+                    </ul>
+                    <input type="submit" name="submit">
+                    </contact>
+                
+           </section>
        
-      <aside id="top-sidebar">
+      <section class="top-sidebar">
+        <div id="social">
           <h2>Connect with Me</h2>
-          <!-- <div id= "connect"> -->
-            <span>
-        <div id="github">
-          <img src="./assets/images/github.png"/>
-        </div>
-        <div id="linked-in">
-            <img src="./assets/images/linkedin.png"/>
-          </div>
-  
-          <div id="stack-overflow">
-              <img src="./assets/images/stackoverflow.png"/>
-            </div>
-          </span>
-          <!-- </div> -->
-          </aside>  
-        </section>       
-
-  <footer>
-      <p>@ Copyright &copy; 2018 Catherine Muthoni</p>
-    </footer>
+          
+        <img src="./assets/images/github.png" class="social" alt="Github">
+        <img src="./assets/images/linkedin.png" class="social" alt="Linkedin">
+        <img src="./assets/images/stackoverflow.png" class="social" alt="Stack Overflow">
+         </div> 
+     </section>
+     </div>
+            
+     <footer>
+        <div class="container">
+           Copyright &copy;  2018 Catherine Muthoni
+           </div>
+         </footer>
 
   </body>
+  
 </html>
 
-<!--In progress; I am still working on the code to complete the assignment-->
